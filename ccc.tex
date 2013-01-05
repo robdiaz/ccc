@@ -1,0 +1,67 @@
+\documentclass{BYUTextbook}
+
+%for theorems and math
+\usepackage{amsmath,amssymb,amsfonts,amsthm,thmtools}
+\usepackage{mathrsfs}
+
+%for bold math
+\usepackage{bm}
+\usepackage{maybemath}
+
+%for extra math and shorcut commands
+\usepackage{physics}
+
+% for graphs
+\usepackage[pdf]{pstricks}
+\usepackage{pst-all}
+\usepackage{pstricks-add}
+
+%additional design might not be needed
+%\usepackage[pstricks]{bclogo}
+
+%for external pictures
+\usepackage{graphics,epstopdf}
+\usepackage{caption,listings,graphicx,subfig}
+
+%colorboxes
+\usepackage{tcolorbox}
+
+%eliminates need for bigl and bigr
+\delimitershortfall=-1pt 
+
+% The \lipsum command just loads dummy text needed sor sample.
+\usepackage{lipsum}
+
+\begin{document}
+
+\pagenumbering{roman}
+\pagestyle{plain}
+%******************************************************************
+% Frontmatter
+%******************************************************************
+\frontmatter
+\input{frontmatter/titlepage}
+%\input{frontmatter/titleback}
+\clearpage
+%\input{frontmatter/acknowledgements}
+\clearpage
+%\input{frontmatter/preface}
+\clearpage
+
+\tableofcontents
+
+%******************************************************************
+% Mainmatter
+%******************************************************************
+
+\mainmatter
+
+\pagenumbering{arabic}
+
+\input{chapters/sample}
+
+%******************************************************************
+% backmatter
+%******************************************************************
+
+\end{document}
