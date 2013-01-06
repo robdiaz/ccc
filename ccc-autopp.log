@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=latex 2012.12.24)  5 JAN 2013 15:27
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=latex 2012.12.24)  5 JAN 2013 16:43
 entering extended mode
  %&-line parsing enabled.
 **\let \APPmakepictures \empty \input  ccc.tex
@@ -737,7 +737,16 @@ Package: thm-restate 2012/05/04 v63
 ) (/usr/local/texlive/2012/texmf-dist/tex/latex/thmtools/thm-amsthm.sty
 Package: thm-amsthm 2012/05/04 v63
 \thmt@style@headstyle=\toks34
-)) (/usr/local/texlive/2012/texmf-dist/tex/latex/physics/physics.sty
+)) (/usr/local/texlive/2012/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup9
+\symboldletters=\mathgroup10
+\symboldotherletters=\mathgroup11
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+) (/usr/local/texlive/2012/texmf-dist/tex/latex/maybemath/maybemath.sty
+Package: maybemath 2005/2/22
+) (/usr/local/texlive/2012/texmf-dist/tex/latex/physics/physics.sty
 Package: physics 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/us
 r/local/texlive/2012/texmf-dist/tex/latex/l3kernel/expl3.sty (/usr/local/texliv
@@ -2016,19 +2025,7 @@ pstricks-add' v3.59, 2012/09/28 (dr,hv)
 \psVectorCtr=\count302
 )
 File: pstricks-add.tex 2012/09/28 v3.59 `PSTricks-add' (hv)
-)) (/usr/local/texlive/2012/texmf-dist/tex/latex/bclogo/bclogo.sty
-Package: bclogo 2011/07/06 v2.26
-\logowidth=\skip130
-\c@bclogocompteur=\count303
-\bcval@epBarre=\skip131
-\bcval@framesep=\skip132
-\bcval@tailleOndu=\skip133
-\bcval@borderWidth=\skip134
-\bc@envbox=\box55
-\bc@invbox=\box56
-\bc@invboxh=\skip135
-\bc@invboxd=\skip136
-) (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+)) (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -2040,26 +2037,17 @@ Package epstopdf Warning: Drivers other than `pdftex.def' are not supported.
 
 )) (/usr/local/texlive/2012/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count304
-\sf@farskip=\skip137
+\c@KVtest=\count303
+\sf@farskip=\skip130
 \sf@captopadj=\dimen281
-\sf@capskip=\skip138
-\sf@nearskip=\skip139
-\c@subfigure=\count305
-\c@subfigure@save=\count306
-\c@subtable=\count307
-\c@subtable@save=\count308
-\sf@top=\skip140
-\sf@bottom=\skip141
-) (/usr/local/texlive/2012/texmf-dist/tex/latex/tools/bm.sty
-Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
-\symboldoperators=\mathgroup9
-\symboldletters=\mathgroup10
-\symboldotherletters=\mathgroup11
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
-LaTeX Info: Redefining \bm on input line 204.
-) (/usr/local/texlive/2012/texmf-dist/tex/latex/maybemath/maybemath.sty
-Package: maybemath 2005/2/22
+\sf@capskip=\skip131
+\sf@nearskip=\skip132
+\c@subfigure=\count304
+\c@subfigure@save=\count305
+\c@subtable=\count306
+\c@subtable@save=\count307
+\sf@top=\skip133
+\sf@bottom=\skip134
 ) (/usr/local/texlive/2012/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2012/04/20 version 1.30 text color boxes
 (/usr/local/texlive/2012/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/loca
@@ -2069,7 +2057,7 @@ x
 \pgfutil@everybye=\toks47
 )
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box57
+\pgfutil@abb=\box55
 (/usr/local/texlive/2012/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )) (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.te
@@ -2092,10 +2080,10 @@ Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 \pgf@yc=\dimen289
 \w@pgf@writea=\write10
 \r@pgf@reada=\read3
-\c@pgf@counta=\count309
-\c@pgf@countb=\count310
-\c@pgf@countc=\count311
-\c@pgf@countd=\count312
+\c@pgf@counta=\count308
+\c@pgf@countb=\count309
+\c@pgf@countc=\count310
+\c@pgf@countd=\count311
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
@@ -2108,13 +2096,13 @@ File: pgfsys-dvips.def 2008/04/03  (rcs-revision 1.20)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
 ostscript.def
 File: pgfsys-common-postscript.def 2008/10/01  (rcs-revision 1.22)
-\pgf@objectcount=\count313
+\pgf@objectcount=\count312
 )))
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
-\pgfsyssoftpath@smallbuffer@items=\count314
-\pgfsyssoftpath@bigbuffer@items=\count315
+\pgfsyssoftpath@smallbuffer@items=\count313
+\pgfsyssoftpath@bigbuffer@items=\count314
 )
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -2127,8 +2115,8 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen290
-\pgfmath@count=\count316
-\pgfmath@box=\box58
+\pgfmath@count=\count315
+\pgfmath@box=\box56
 \pgfmath@toks=\toks48
 \pgfmath@stack@operand=\toks49
 \pgfmath@stack@operation=\toks50
@@ -2150,7 +2138,7 @@ code.tex)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
 code.tex))) (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathflo
 at.code.tex
-\c@pgfmathroundto@lastzeros=\count317
+\c@pgfmathroundto@lastzeros=\count316
 ))
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
@@ -2185,10 +2173,10 @@ File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
 File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
-\pgfpic=\box59
-\pgf@hbox=\box60
-\pgf@layerbox@main=\box61
-\pgf@picture@serial@count=\count318
+\pgfpic=\box57
+\pgf@hbox=\box58
+\pgf@layerbox@main=\box59
+\pgf@picture@serial@count=\count317
 )
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
@@ -2222,7 +2210,7 @@ File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 e.tex
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
 \pgf@max=\dimen313
-\pgf@sys@shading@range@num=\count319
+\pgf@sys@shading@range@num=\count318
 )
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -2231,7 +2219,7 @@ File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
 code.tex
 File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
-\pgfexternal@startupbox=\box62
+\pgfexternal@startupbox=\box60
 ))
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
 de.tex
@@ -2248,7 +2236,7 @@ File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
 e.tex
 File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
-\pgfnodeparttextbox=\box63
+\pgfnodeparttextbox=\box61
 )
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
 tex
@@ -2269,14 +2257,14 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \verbatim@line=\toks52
 \verbatim@in@stream=\read4
 )
-\tcb@titlebox=\box64
-\tcb@upperbox=\box65
-\tcb@lowerbox=\box66
-\tcb@textdim=\skip142
+\tcb@titlebox=\box62
+\tcb@upperbox=\box63
+\tcb@lowerbox=\box64
+\tcb@textdim=\skip135
 \tcb@out=\write11
 ) (/usr/local/texlive/2012/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count320
+\c@lips@count=\count319
 )
 No file ccc-autopp.aux.
 \openout1 = `ccc-autopp.aux'.
@@ -2341,14 +2329,14 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box67
+\AtBeginShipoutBox=\box65
 Package hyperref Info: Link coloring ON on input line 35.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count321
+\c@section@level=\count320
 )
 LaTeX Info: Redefining \ref on input line 35.
 LaTeX Info: Redefining \pageref on input line 35.
@@ -2360,7 +2348,7 @@ LaTeX Info: Redefining \nameref on input line 35.
 
 Package hyperref Warning: Rerun to get /PageLabels entry.
 
-\c@lstlisting=\count322
+\c@lstlisting=\count321
 Package marginnote Info: \pdfoutput not 0 and \pdflastxpos available.
 (marginnote)             Extended position detection mode activated.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/auto-pst-pdf/auto-pst-pdf.sty
@@ -2375,10 +2363,10 @@ Package ifplatform Warning:
     shell escape is disabled, so I can only detect \ifwindows.
 
 )
-\c@app@runs=\count323
+\c@app@runs=\count322
 (/usr/local/texlive/2012/texmf-dist/tex/latex/pst-pdf/pst-pdf.sty
 Package: pst-pdf 2008/10/09 v1.1v PS graphics for pdfLaTeX (RN,HjG)
-\c@pspicture=\count324
+\c@pspicture=\count323
 Package pst-pdf Info: MODE: 0 (dvi -- extraction mode) on input line 102.
 No auxiliary output files.
 
@@ -2387,22 +2375,27 @@ Package: preview 2010/02/14 11.86 (AUCTeX/preview-latex)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/preview/prtightpage.def
 \PreviewBorder=\dimen316
 )
-\pr@snippet=\count325
-\pr@box=\box68
+\pr@snippet=\count324
+\pr@box=\box66
 \pr@output=\toks53
 Preview: Fontsize 10.95pt
 )
-\pdfoutput=\count326
+\pdfoutput=\count325
 (/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count327
+\Gread@gobject=\count326
 ))) ABD: EveryShipout initializing macros (./frontmatter/titlepage.tex)
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 51.
-(./chapters/sample.tex
+(./chapters/chapter_3.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 1.
+(./chapters/chapter_3_files/basic_rules.tex
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 1.
+)) (./chapters/sample.tex
+Chapter 2.
 LaTeX Font Info:    Try loading font information for TS1+futs on input line 5.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
@@ -2440,16 +2433,14 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ) (/usr/local/texlive/2012/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 16.
 
 Package xcolor Warning: Incompatible color definition on input line 22.
 
 
 Package xcolor Warning: Incompatible color definition on input line 25.
 
-Package marginnote Info: Suggest that margin note 5.1 will be on
-(marginnote)             absolute page 5.
+Package marginnote Info: Suggest that margin note 7.1 will be on
+(marginnote)             absolute page 7.
 (marginnote)             This may be wrong on input line 29.
 Package marginnote Info: xpos not known,
 (marginnote)             using \marginnoterightadjust on input line 29.
@@ -2464,16 +2455,16 @@ LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 43.
 
-LaTeX Warning: Reference `example:One' on page 2 undefined on input line 47.
+LaTeX Warning: Reference `example:One' on page 4 undefined on input line 47.
 
 
 Package xcolor Warning: Incompatible color definition on input line 56.
 
 
-LaTeX Warning: Reference `f01Faraday' on page 2 undefined on input line 67.
+LaTeX Warning: Reference `f01Faraday' on page 4 undefined on input line 67.
 
 
-LaTeX Warning: Reference `fig:George' on page 2 undefined on input line 73.
+LaTeX Warning: Reference `fig:George' on page 4 undefined on input line 73.
 
 
 Package caption Warning: `ragged2e' support has been changed.
@@ -2481,7 +2472,7 @@ Package caption Warning: `ragged2e' support has been changed.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:8.6' on page 3 undefined on input line 102.
+LaTeX Warning: Reference `fig:8.6' on page 5 undefined on input line 102.
 
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 127.
 
@@ -2489,9 +2480,9 @@ LaTeX Font Info:    Try loading font information for T1+cmss on input line 127.
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 
-LaTeX Warning: Reference `listing:1' on page 3 undefined on input line 137.
+LaTeX Warning: Reference `listing:1' on page 5 undefined on input line 137.
 
-\openout6 = `ch1ex1.m'.
+\openout6 = `ch2ex1.m'.
 
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 161.
@@ -2499,7 +2490,7 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 161.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) (./ch1ex1.m
+) (./ch2ex1.m
 
 Package xcolor Warning: Incompatible color definition on input line 6.
 
@@ -2609,7 +2600,7 @@ Package xcolor Warning: Incompatible color definition on input line 17.
 
 )
 
-LaTeX Warning: Reference `listing:2' on page 4 undefined on input line 164.
+LaTeX Warning: Reference `listing:2' on page 6 undefined on input line 164.
 
 \openout6 = `DisplayPi.m'.
 
@@ -2677,7 +2668,7 @@ LaTeX Font Info:    Try loading font information for U+futs on input line 183.
 File: ufuts.fd 2004/03/26 Fontinst v1.926 font definitions for U/futs.
 )
 
-LaTeX Warning: Reference `tab:Radiometric' on page 4 undefined on input line 19
+LaTeX Warning: Reference `tab:Radiometric' on page 6 undefined on input line 19
 2.
 
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <9> not available
@@ -2699,35 +2690,35 @@ Package xcolor Warning: Incompatible color definition on input line 230.
 LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <10.95> not available
 (Font)              Font shape `T1/futs/b/it' tried instead on input line 236.
 
-LaTeX Warning: Reference `sec:EqNotes' on page 5 undefined on input line 236.
+LaTeX Warning: Reference `sec:EqNotes' on page 7 undefined on input line 236.
 
 
-LaTeX Warning: Reference `sec:EqNotes' on page 5 undefined on input line 236.
+LaTeX Warning: Reference `sec:EqNotes' on page 7 undefined on input line 236.
 
 
-LaTeX Warning: Reference `prob:hard' on page 5 undefined on input line 240.
+LaTeX Warning: Reference `prob:hard' on page 7 undefined on input line 240.
 
 No file ccc-autopp.ind.
 )
 
 Package pst-pdf Warning: Picture container needs cropping..
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 68.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 69.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 69.
 Package rerunfilecheck Info: File `ccc-autopp.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
  ) 
 Here is how much of TeX's memory you used:
- 30853 strings out of 493489
- 525429 string characters out of 3141348
- 795655 words of memory out of 3000000
- 33442 multiletter control sequences out of 15000+200000
+ 30671 strings out of 493489
+ 522771 string characters out of 3141348
+ 790049 words of memory out of 3000000
+ 33257 multiletter control sequences out of 15000+200000
  118737 words of font info for 92 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  47i,9n,84p,626b,2200s stack positions out of 5000i,500n,10000p,200000b,50000s

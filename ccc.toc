@@ -1,13 +1,15 @@
-\contentsline {chapter}{\numberline {1}An Example Chapter}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Equation Notes}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}The Example Environment}{1}{section.1.2}
-\contentsline {section}{\numberline {1.3}The Derivation Environment}{2}{section.1.3}
-\contentsline {section}{\numberline {1.4}Margin Figures}{2}{section.1.4}
-\contentsline {section}{\numberline {1.5}Inline Figures}{3}{section.1.5}
-\contentsline {section}{\numberline {1.6}Wide Figures}{3}{section.1.6}
-\contentsline {section}{\numberline {1.7}Person Feature}{4}{section.1.7}
-\contentsline {section}{\numberline {1.8}Code Listings}{4}{section.1.8}
-\contentsline {section}{\numberline {1.9}Margin Notes}{5}{section.1.9}
-\contentsline {section}{\numberline {1.10}Margin Tables}{5}{section.1.10}
-\contentsline {section}{Exercises}{6}{section*.5}
-\contentsline {subsubsection}{Exercises}{6}{section*.6}
+\contentsline {chapter}{\numberline {1}The Derivative}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Basic Derivatives}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}An Example Chapter}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Equation Notes}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}The Example Environment}{3}{section.2.2}
+\contentsline {section}{\numberline {2.3}The Derivation Environment}{4}{section.2.3}
+\contentsline {section}{\numberline {2.4}Margin Figures}{4}{section.2.4}
+\contentsline {section}{\numberline {2.5}Inline Figures}{5}{section.2.5}
+\contentsline {section}{\numberline {2.6}Wide Figures}{5}{section.2.6}
+\contentsline {section}{\numberline {2.7}Person Feature}{6}{section.2.7}
+\contentsline {section}{\numberline {2.8}Code Listings}{6}{section.2.8}
+\contentsline {section}{\numberline {2.9}Margin Notes}{7}{section.2.9}
+\contentsline {section}{\numberline {2.10}Margin Tables}{7}{section.2.10}
+\contentsline {section}{Exercises}{8}{section*.5}
+\contentsline {subsubsection}{Exercises}{8}{section*.6}

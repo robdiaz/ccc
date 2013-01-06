@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.12.24)  5 JAN 2013 15:27
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.12.24)  5 JAN 2013 16:43
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -830,6 +830,17 @@ Package: thm-restate 2012/05/04 v63
 Package: thm-amsthm 2012/05/04 v63
 \thmt@style@headstyle=\toks31
 ))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup9
+\symboldletters=\mathgroup10
+\symboldotherletters=\mathgroup11
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/maybemath/maybemath.sty
+Package: maybemath 2005/2/22
+)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/physics/physics.sty
 Package: physics 
 
@@ -2160,19 +2171,6 @@ hv)
 )
 File: pstricks-add.tex 2012/09/28 v3.59 `PSTricks-add' (hv)
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/bclogo/bclogo.sty
-Package: bclogo 2011/07/06 v2.26
-\logowidth=\skip130
-\c@bclogocompteur=\count303
-\bcval@epBarre=\skip131
-\bcval@framesep=\skip132
-\bcval@tailleOndu=\skip133
-\bcval@borderWidth=\skip134
-\bc@envbox=\box54
-\bc@invbox=\box55
-\bc@invboxh=\skip135
-\bc@invboxd=\skip136
-)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
@@ -2183,8 +2181,8 @@ Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
 Package grfext Info: Graphics extension search list:
-(grfext)             [.mps,.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG
-,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
@@ -2193,28 +2191,17 @@ e
 )))
 (/usr/local/texlive/2012/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count304
-\sf@farskip=\skip137
+\c@KVtest=\count303
+\sf@farskip=\skip130
 \sf@captopadj=\dimen281
-\sf@capskip=\skip138
-\sf@nearskip=\skip139
-\c@subfigure=\count305
-\c@subfigure@save=\count306
-\c@subtable=\count307
-\c@subtable@save=\count308
-\sf@top=\skip140
-\sf@bottom=\skip141
-)
-(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/bm.sty
-Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
-\symboldoperators=\mathgroup9
-\symboldletters=\mathgroup10
-\symboldotherletters=\mathgroup11
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
-LaTeX Info: Redefining \bm on input line 204.
-)
-(/usr/local/texlive/2012/texmf-dist/tex/latex/maybemath/maybemath.sty
-Package: maybemath 2005/2/22
+\sf@capskip=\skip131
+\sf@nearskip=\skip132
+\c@subfigure=\count304
+\c@subfigure@save=\count305
+\c@subtable=\count306
+\c@subtable@save=\count307
+\sf@top=\skip133
+\sf@bottom=\skip134
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2012/04/20 version 1.30 text color boxes
@@ -2226,7 +2213,7 @@ x
 \pgfutil@everybye=\toks44
 )
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box56
+\pgfutil@abb=\box54
 (/usr/local/texlive/2012/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -2249,10 +2236,10 @@ Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 \pgf@yc=\dimen289
 \w@pgf@writea=\write11
 \r@pgf@reada=\read4
-\c@pgf@counta=\count309
-\c@pgf@countb=\count310
-\c@pgf@countc=\count311
-\c@pgf@countd=\count312
+\c@pgf@counta=\count308
+\c@pgf@countb=\count309
+\c@pgf@countc=\count310
+\c@pgf@countd=\count311
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
@@ -2269,8 +2256,8 @@ File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
-\pgfsyssoftpath@smallbuffer@items=\count313
-\pgfsyssoftpath@bigbuffer@items=\count314
+\pgfsyssoftpath@smallbuffer@items=\count312
+\pgfsyssoftpath@bigbuffer@items=\count313
 )
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -2283,8 +2270,8 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen290
-\pgfmath@count=\count315
-\pgfmath@box=\box57
+\pgfmath@count=\count314
+\pgfmath@box=\box55
 \pgfmath@toks=\toks45
 \pgfmath@stack@operand=\toks46
 \pgfmath@stack@operation=\toks47
@@ -2306,7 +2293,7 @@ code.tex)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
 code.tex)))
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count316
+\c@pgfmathroundto@lastzeros=\count315
 ))
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
@@ -2341,10 +2328,10 @@ File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
 File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
-\pgfpic=\box58
-\pgf@hbox=\box59
-\pgf@layerbox@main=\box60
-\pgf@picture@serial@count=\count317
+\pgfpic=\box56
+\pgf@hbox=\box57
+\pgf@layerbox@main=\box58
+\pgf@picture@serial@count=\count316
 )
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
@@ -2378,7 +2365,7 @@ File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 e.tex
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
 \pgf@max=\dimen313
-\pgf@sys@shading@range@num=\count318
+\pgf@sys@shading@range@num=\count317
 )
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -2387,7 +2374,7 @@ File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
 code.tex
 File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
-\pgfexternal@startupbox=\box61
+\pgfexternal@startupbox=\box59
 ))
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
 de.tex
@@ -2404,7 +2391,7 @@ File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
 e.tex
 File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
-\pgfnodeparttextbox=\box62
+\pgfnodeparttextbox=\box60
 )
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
 tex
@@ -2425,15 +2412,15 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \verbatim@line=\toks49
 \verbatim@in@stream=\read5
 )
-\tcb@titlebox=\box63
-\tcb@upperbox=\box64
-\tcb@lowerbox=\box65
-\tcb@textdim=\skip142
+\tcb@titlebox=\box61
+\tcb@upperbox=\box62
+\tcb@lowerbox=\box63
+\tcb@textdim=\skip135
 \tcb@out=\write12
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count319
+\c@lips@count=\count318
 ) (./ccc.aux)
 \openout1 = `ccc.aux'.
 
@@ -2489,16 +2476,16 @@ File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
 )
 (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count320
+\scratchcounter=\count319
 \scratchdimen=\dimen316
-\scratchbox=\box66
-\nofMPsegments=\count321
-\nofMParguments=\count322
+\scratchbox=\box64
+\nofMPsegments=\count320
+\nofMParguments=\count321
 \everyMPshowfont=\toks50
-\MPscratchCnt=\count323
+\MPscratchCnt=\count322
 \MPscratchDim=\dimen317
-\MPnumerator=\count324
-\makeMPintoPDFobject=\count325
+\MPnumerator=\count323
+\makeMPintoPDFobject=\count324
 \everyMPtoPDFconversion=\toks51
 )
 LaTeX Info: Redefining \microtypecontext on input line 35.
@@ -2519,7 +2506,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package caption Info: We need package `ragged2e' on input line 35.
-\AtBeginShipoutBox=\box67
+\AtBeginShipoutBox=\box65
 Package hyperref Info: Link coloring ON on input line 35.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -2528,7 +2515,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count326
+\c@section@level=\count325
 )
 LaTeX Info: Redefining \ref on input line 35.
 LaTeX Info: Redefining \pageref on input line 35.
@@ -2538,7 +2525,7 @@ LaTeX Info: Redefining \nameref on input line 35.
 \@outlinefile=\write13
 \openout13 = `ccc.out'.
 
-\c@lstlisting=\count327
+\c@lstlisting=\count326
 Package marginnote Info: \pdfoutput not 0 and \pdflastxpos available.
 (marginnote)             Extended position detection mode activated.
 
@@ -2558,7 +2545,7 @@ runsystem(uname -s > "ccc.w18")...executed.
 runsystem(rm -- "ccc.w18")...executed.
 
 )
-\c@app@runs=\count328
+\c@app@runs=\count327
 runsystem(echo " ")...executed.
 
 runsystem(echo "-------------------------------------------------")...executed.
@@ -2593,14 +2580,14 @@ runsystem(echo "-------------------------------------------------")...executed.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/pst-pdf/pst-pdf.sty
 Package: pst-pdf 2008/10/09 v1.1v PS graphics for pdfLaTeX (RN,HjG)
-\c@pspicture=\count329
+\c@pspicture=\count328
 Package pst-pdf Info: MODE: 1 (pdfTeX mode) on input line 214.
 \ppf@output=\toks52
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/preview/preview.sty
 Package: preview 2010/02/14 11.86 (AUCTeX/preview-latex)
-\pr@snippet=\count330
-\pr@box=\box68
+\pr@snippet=\count329
+\pr@box=\box66
 \pr@output=\toks53
 
 Preview: Fontsize 10.95pt
@@ -2675,24 +2662,31 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ]
 [4
 
-] (./chapters/sample.tex
+] (./chapters/chapter_3.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 1.
+(./chapters/chapter_3_files/basic_rules.tex
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 1.
+)) (./chapters/sample.tex [1
+
+]
+[2
+
+]
+Chapter 2.
 LaTeX Font Info:    Try loading font information for TS1+futs on input line 5.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
 )
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 16.
-
 
 Package xcolor Warning: Incompatible color definition on input line 22.
 
 
 Package xcolor Warning: Incompatible color definition on input line 25.
 
-Package marginnote Info: Margin note 5.1 is on absolute page 5
+Package marginnote Info: Margin note 7.1 is on absolute page 7
 (marginnote)              on input line 29.
 Package marginnote Info: xpos seems to be 273.59967pt,
 (marginnote)             \marginnoterightadjust ignored on input line 29.
@@ -2704,13 +2698,11 @@ Package xcolor Warning: Incompatible color definition on input line 39.
 
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 43.
-[1
-
-]
+[3]
 
 Package xcolor Warning: Incompatible color definition on input line 56.
 
-<graphics/f01Faraday.pdf, id=96, 144.54pt x 130.57452pt>
+<graphics/f01Faraday.pdf, id=111, 144.54pt x 130.57452pt>
 File: graphics/f01Faraday.pdf Graphic file (type pdf)
 
 <use graphics/f01Faraday.pdf>
@@ -2718,35 +2710,35 @@ Package pdftex.def Info: graphics/f01Faraday.pdf used on input line 62.
 (pdftex.def)             Requested size: 144.54pt x 130.58017pt.
 
 
-LaTeX Warning: Reference `f01Faraday' on page 2 undefined on input line 67.
+LaTeX Warning: Reference `f01Faraday' on page 4 undefined on input line 67.
 
-[2 <./graphics/f01Faraday.pdf>]
-<graphics/f03ReflectanceLab.pdf, id=144, 311.14314pt x 121.98865pt>
+[4 <./graphics/f01Faraday.pdf>]
+<graphics/f03ReflectanceLab.pdf, id=160, 311.14314pt x 121.98865pt>
 File: graphics/f03ReflectanceLab.pdf Graphic file (type pdf)
 
 <use graphics/f03ReflectanceLab.pdf>
 Package pdftex.def Info: graphics/f03ReflectanceLab.pdf used on input line 79.
 (pdftex.def)             Requested size: 314.37494pt x 123.26152pt.
 
-<graphics/f08Young.pdf, id=145, 447.20537pt x 147.2649pt>
+<graphics/f08Young.pdf, id=161, 447.20537pt x 147.2649pt>
 File: graphics/f08Young.pdf Graphic file (type pdf)
 
 <use graphics/f08Young.pdf>
 Package pdftex.def Info: graphics/f08Young.pdf used on input line 89.
 (pdftex.def)             Requested size: 447.20427pt x 147.26453pt.
- [3 <./graphics/f03ReflectanceLab.pdf> <./graphics/f08Young.pdf>]
+ [5 <./graphics/f03ReflectanceLab.pdf> <./graphics/f08Young.pdf>]
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 127.
 
  (/usr/local/texlive/2012/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-<graphics/f00Descartes.pdf, id=213, 144.54pt x 135.93195pt>
+<graphics/f00Descartes.pdf, id=227, 144.54pt x 135.93195pt>
 File: graphics/f00Descartes.pdf Graphic file (type pdf)
 
 <use graphics/f00Descartes.pdf>
 Package pdftex.def Info: graphics/f00Descartes.pdf used on input line 127.
 (pdftex.def)             Requested size: 144.53963pt x 135.9316pt.
-\openout7 = `ch1ex1.m'.
+\openout7 = `ch2ex1.m'.
 
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 161.
@@ -2755,7 +2747,7 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 161.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) (./ch1ex1.m
+) (./ch2ex1.m
 
 Package xcolor Warning: Incompatible color definition on input line 6.
 
@@ -2928,7 +2920,7 @@ Package xcolor Warning: Incompatible color definition on input line 4.
 LaTeX Font Info:    Try loading font information for U+futs on input line 183.
  (/usr/local/texlive/2012/texmf-dist/tex/latex/fourier/ufuts.fd
 File: ufuts.fd 2004/03/26 Fontinst v1.926 font definitions for U/futs.
-) [4 <./graphics/f00Descartes.pdf>]
+) [6 <./graphics/f00Descartes.pdf>]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <9> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 230.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -2946,38 +2938,44 @@ Package xcolor Warning: Incompatible color definition on input line 230.
 
 Package xcolor Warning: Incompatible color definition on input line 230.
 
-[5]
+[7]
 LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <10.95> not available
 (Font)              Font shape `T1/futs/b/it' tried instead on input line 236.
- [6
+ [8
 
 ]
 No file ccc.ind.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
  (./ccc.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
-Package rerunfilecheck Info: File `ccc.out' has not changed.
-(rerunfilecheck)             Checksum: B56C34E57A642ADCC3F97EFA6EDA7F45;769.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 69.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 69.
 
+
+Package rerunfilecheck Warning: File `ccc.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ccc.out':
+(rerunfilecheck)             Before: 3F83749F73C8551846E71916A165C319;821
+(rerunfilecheck)             After:  0A41D132F1BA46D3BF3900FB73AF95D7;889.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
 
-Overfull \hbox (10.55696pt too wide) in paragraph at lines 31--68
+Overfull \hbox (10.55696pt too wide) in paragraph at lines 37--69
 []\T1/futs/m/n/10.95 (-20) spsp spsp  spsp spsp  spsp spsp  spsp spsp   spsp sp
 sp  spsp spsp                                        
  []
 
  ) 
 Here is how much of TeX's memory you used:
- 31447 strings out of 493488
- 532620 string characters out of 3141325
- 796747 words of memory out of 3000000
- 33719 multiletter control sequences out of 15000+200000
+ 31272 strings out of 493488
+ 530043 string characters out of 3141325
+ 791113 words of memory out of 3000000
+ 33538 multiletter control sequences out of 15000+200000
  139219 words of font info for 264 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  47i,9n,84p,589b,1867s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2994,10 +2992,10 @@ mf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2012/texmf-dist
 /type1/public/cm-super/sfss0800.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
 ype1/public/cm-super/sfsx0800.pfb></usr/local/texlive/2012/texmf-dist/fonts/typ
 e1/public/cm-super/sftt0900.pfb>
-Output written on ccc.pdf (10 pages, 374981 bytes).
+Output written on ccc.pdf (12 pages, 375988 bytes).
 PDF statistics:
- 331 PDF objects out of 1000 (max. 8388607)
- 290 compressed objects within 3 object streams
- 63 named destinations out of 1000 (max. 500000)
- 37505 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 347 PDF objects out of 1000 (max. 8388607)
+ 303 compressed objects within 4 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 37513 words of extra memory for PDF output out of 42996 (max. 10000000)
 
