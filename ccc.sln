@@ -1,0 +1,16 @@
+\chapter*{Chapter 2\ Solutions}
+\addcontentsline{toc}{chapter}{Chapter 2\ Solutions}
+\section*{P2.1 {\footnotesize(prob:P2.1) \normalsize}}
+ \addcontentsline{toc}{section}{prob:P2.1}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/prob:P2.1}{}{No Solution File Found}
+ \markboth{Solutions for Chapter \thechapter}{P2.1}
+ \end{itemize} \hrule
+\section*{L2.2 {\footnotesize(M) \normalsize}}
+ \addcontentsline{toc}{section}{M}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/M}{}{No Solution File Found}
+ \markboth{Solutions for Chapter \thechapter}{L2.2}
+ \end{itemize} \hrule
