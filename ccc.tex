@@ -32,6 +32,63 @@
 % The \lipsum command just loads dummy text needed sor sample.
 \usepackage{lipsum}
 
+%theorem declarations
+
+\declaretheorem[
+name=\sffamily\bfseries\color{black} Theorem,
+numberwithin=chapter,
+shaded={rulecolor=magenta,
+rulewidth=2pt, bgcolor=white}
+]{theorem}
+
+\declaretheorem[
+name=\sffamily\bfseries\color{black} Definition,
+style=definition,
+numbered=no,
+shaded={rulecolor=cyan,
+rulewidth=2pt, bgcolor=white}
+]{definition}
+
+\declaretheorem[
+name=\sffamily\bfseries\color{black} Procedure,
+style=definition,
+numbered=no,
+shaded={rulecolor=violet,
+rulewidth=2pt, bgcolor=white}
+]{procedure}
+
+\declaretheorem[
+name=\sffamily\bfseries\color{black} Note,
+style=definition,
+numbered=no,
+shaded={rulecolor=teal,
+rulewidth=2pt, bgcolor=white}
+]{note}
+
+\declaretheorem[
+name=\sffamily\bfseries\color{black} Property,
+style=definition,
+numbered=no,
+shaded={rulecolor=orange,
+rulewidth=2pt, bgcolor=white}
+]{property}
+
+\declaretheorem[
+name=\sffamily\bfseries\color{olive} Notation,
+style=definition,
+numbered=no,
+shaded={rulecolor=olive,
+rulewidth=2pt, bgcolor=white}
+]{notation}
+
+\theoremstyle{definition}
+\newtheorem*{c1}{\textsf{Case 1}}
+\newtheorem*{c2}{\textsf{Case 2}}
+%\newtheorem*{notation}{\textsf{Notation}}
+
+\theoremstyle{remark}
+\newtheorem*{ans}{Answer}
+
 \begin{document}
 
 \pagenumbering{roman}
